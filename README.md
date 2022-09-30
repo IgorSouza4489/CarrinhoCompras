@@ -1,6 +1,6 @@
 # CarrinhoCompras
-Projeto carrinho compras usando autenticação e armazenamento de dados pelo Firebase.
-API de frutas consumida
+Projeto carrinho compras usando autenticação e armazenamento de dados pelo Firebase.<br>
+API de frutas consumida<br>
 Para usar o login pelo facebook insira os dados no string resource.
 <br><br>
 ![1](https://user-images.githubusercontent.com/63150786/193339914-385d4d3e-0cf9-4af2-ae44-a074c9191bdf.PNG)<br>
