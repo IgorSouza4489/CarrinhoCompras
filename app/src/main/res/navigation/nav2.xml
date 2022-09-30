@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav2"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.tp3thiago.ui.ui.signIn.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.tp3thiago.ui.ui.signUp.signUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/listaComprasFragment"
+        android:name="com.example.tp3thiago.ui.ui.compras.Lista.listaComprasFragment"
+        android:label="fragment_lista_compras"
+        tools:layout="@layout/fragment_lista_compras" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.tp3thiago.ui.ui.forgotPassword.forgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/comprasCreateFragment"
+        android:name="com.example.tp3thiago.ui.ui.compras.Create.comprasCreateFragment"
+        android:label="fragment_compras_create"
+        tools:layout="@layout/fragment_compras_create" />
+    <fragment
+        android:id="@+id/comprasShowFragment"
+        android:name="com.example.tp3thiago.ui.ui.compras.Show.comprasShowFragment"
+        android:label="fragment_compras_show"
+        tools:layout="@layout/fragment_compras_show" />
+    <fragment
+        android:id="@+id/frutasListFragment"
+        android:name="com.example.tp3thiago.frutasListFragment"
+        android:label="fragment_frutas_list"
+        tools:layout="@layout/fragment_frutas_list" />
+</navigation>

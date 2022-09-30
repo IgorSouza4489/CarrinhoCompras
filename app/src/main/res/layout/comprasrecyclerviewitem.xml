@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#F3F3F3"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="0dp">
+
+        <!--text view for displaying our note text-->
+
+        <!--text view for displaying our last updated text-->
+
+        <!--imageview for displaying delete icon-->
+
+        <TextView
+            android:id="@+id/idTVItem"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:padding="4dp"
+            android:text="Item"
+            android:textColor="#008807"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/idTVPreco"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTVQuantidade"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/idTVHoraNone"
+            android:background="#F3F3F3"
+            android:padding="5dp"
+            android:text="Preço"
+            android:textColor="#757575"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/idTVHoraNone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTVQuantidade"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#F3F3F3"
+            android:padding="4dp"
+            android:text="Preço:"
+            android:textColor="#008807"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/idTVQuantidade"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTVCategoria"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="157dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/idTVDate2"
+            android:padding="4dp"
+            android:text="Quantidade"
+            android:textColor="#757575"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/idTVCategoria"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVItem"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="157dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/idTVDate"
+            android:padding="4dp"
+            android:text="Categoria"
+            android:textColor="#757575"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/idTVDate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTVDate"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="0dp"
+            android:padding="4dp"
+            android:text="Quantidade:"
+            android:textColor="#008807"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/idTVDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVItem"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:padding="4dp"
+            android:text="Categoria:"
+            android:textColor="#008807"
+            android:textSize="13sp" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/idTVPreco"
+            android:layout_marginTop="2dp"
+            android:background="?android:attr/listDivider" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

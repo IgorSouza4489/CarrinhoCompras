@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693769204684",
+    "project_id": "tp3thiago-be282",
+    "storage_bucket": "tp3thiago-be282.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693769204684:android:4b9dc7d322c4c73ae62369",
+        "android_client_info": {
+          "package_name": "com.example.tp3thiago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693769204684-l1opf6fg0os4mdean9n8ou2868n8d6rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbdy6KSW165LF7vdmVqLwWjOU9FNLDp_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693769204684-l1opf6fg0os4mdean9n8ou2868n8d6rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
